@@ -130,23 +130,16 @@ img {
 
  /* MEDIA QUERY */
   /*desktop*/
- @media screen and (min-width:769px){
+ @media screen and (max-width:1200px){
     .container{
+        max-width: 980px;
         width: 100%;
-        max-width: 1140px;
     }
  }
  /* Tablet  768*/
- @media screen and (max-width:768px){
-    .container{
-        width: 100%;
-    }
- }
+
  /* Smartphone 480*/
  @media screen and (max-width:480px){
-    .container{
-        width: 100%;
-    }
     .row{
         flex-wrap: wrap;
         gap: 60px;
